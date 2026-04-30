@@ -21,6 +21,7 @@ public class TowerPlot : MonoBehaviour
         if (towerPlaced == true)
         {
             towerOptions.SetActive(true);
+
             Invoke("MenuTimer", 4f);
         }
     }
@@ -39,7 +40,7 @@ public class TowerPlot : MonoBehaviour
     // Destroy the tower on the plot
     public void Demolish()
     {
-        Destroy(transform.GetChild(2).gameObject);
+        Destroy(transform.GetChild(1).gameObject);
         gm.availableTowers += 1;
         towerPlaced = false;
         towerOptions.SetActive(false);

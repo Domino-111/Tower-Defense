@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager game;
 
-    public TMP_Text scoreText;
+    public TMP_Text scoreText, AT_text;
     public int score = 0;
 
     public int availableTowers;
@@ -18,7 +18,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        UpdateScore();
+        //UpdateScore();
+        AvailableTowers();
     }
 
     public void Restart()
@@ -29,5 +30,10 @@ public class GameManager : MonoBehaviour
     public void UpdateScore()
     {
         scoreText.text = "Score: " + score.ToString();
+    }
+
+    public void AvailableTowers()
+    {
+        AT_text.text = "Towers\n" + availableTowers.ToString() + "/8";
     }
 }
