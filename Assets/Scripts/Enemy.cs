@@ -7,7 +7,6 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float health, speed;
-    public GameObject self;
 
     public Tower.Shape myShape;
 
@@ -15,16 +14,18 @@ public class Enemy : MonoBehaviour
 
     public Node startNode, goalNode;
 
-    [ContextMenu("Test")]
+    public int point = 0;
+
     void Awake()
     {
         pathFinder.GetAllNodes();
 
         Node[] nodes = FindObjectsByType<Node>(FindObjectsSortMode.InstanceID);
+    }
 
-
-
-        //pathFinder.DebugPath(path);
+    void Start()
+    {
+        InvokeRepeating("MoveToNextPoint", 1f, 1f);
     }
 
     void Update()
@@ -34,14 +35,32 @@ public class Enemy : MonoBehaviour
             GameManager.game.score++;
             Destroy(gameObject);
         }
-        self.transform.position = Vector3.MoveTowards(self.transform.position, goalNode.transform.position, 1000);
-        //Movement();
+
+        if (transform.position != goalNode.transform.position)
+        {
+            //Movement();
+        }
     }
 
-    public void Movement(List<Node> path)
+    public void Movement()
     {
+        
+        
+        //for (int i = 0; i < path.Count - 1; i++)
+        //{
+        //    transform.position = Vector2.MoveTowards(transform.position, path[i + 1].transform.position, (Time.deltaTime * speed));
+        //}
+    }
+
+    public void MoveToNextPoint()
+    {
+        List<Node> path;
         path = pathFinder.FindShortestPath(startNode, goalNode);
 
-        
+        if (point != path.Count)
+        {
+            point += 1;
+            transform.position = path[point].transform.position;
+        }
     }
 }
