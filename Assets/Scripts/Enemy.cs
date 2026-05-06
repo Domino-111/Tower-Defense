@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("MoveToNextPoint", 1f, 1f);
+        InvokeRepeating("MoveToNextPoint", 5f, 5f);
     }
 
     void Update()
@@ -35,21 +35,6 @@ public class Enemy : MonoBehaviour
             GameManager.game.score++;
             Destroy(gameObject);
         }
-
-        if (transform.position != goalNode.transform.position)
-        {
-            //Movement();
-        }
-    }
-
-    public void Movement()
-    {
-        
-        
-        //for (int i = 0; i < path.Count - 1; i++)
-        //{
-        //    transform.position = Vector2.MoveTowards(transform.position, path[i + 1].transform.position, (Time.deltaTime * speed));
-        //}
     }
 
     public void MoveToNextPoint()
@@ -60,7 +45,8 @@ public class Enemy : MonoBehaviour
         if (point != path.Count)
         {
             point += 1;
-            transform.position = path[point].transform.position;
+            //transform.position = path[point].transform.position;
+            //transform.position = Vector2.MoveTowards(transform.position, path[point].transform.position, speed * Time.deltaTime);
         }
     }
 }

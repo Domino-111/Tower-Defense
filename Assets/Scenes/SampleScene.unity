@@ -9824,7 +9824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 1
-  speed: 1
+  speed: 100
   myShape: 2
   pathFinder: {fileID: 1777493606}
   startNode: {fileID: 940468910}
