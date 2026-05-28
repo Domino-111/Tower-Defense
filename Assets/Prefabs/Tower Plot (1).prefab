@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1638705360506304714
 RectTransform:
   m_ObjectHideFlags: 0
@@ -54,7 +54,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5353204745072500321
 RectTransform:
   m_ObjectHideFlags: 0
@@ -181,6 +181,7 @@ GameObject:
   - component: {fileID: 2055278792680628608}
   - component: {fileID: 5284799074193413605}
   - component: {fileID: 3792638555390106846}
+  - component: {fileID: 5873800576314244471}
   m_Layer: 5
   m_Name: Tower Plot (1)
   m_TagString: Untagged
@@ -327,6 +328,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerPlot
   towerPlaced: 0
-  towerOptions: {fileID: 763903303657742342}
+  demolishMenu: {fileID: 961908312071798128}
   tower: {fileID: 1174314832115212773, guid: 83a17c0073f8e2a428956656150df638, type: 3}
   gm: {fileID: 0}
+  nodesInRange: []
+  node: {fileID: 0}
+  weightIncrease: 10
+--- !u!58 &5873800576314244471
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6798371991034006048}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 135

@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
         if (point != path.Count)
         {
             point += 1;
-            //transform.position = path[point].transform.position;
+            transform.position = path[point].transform.position;
             //transform.position = Vector2.MoveTowards(transform.position, path[point].transform.position, speed * Time.deltaTime);
         }
     }

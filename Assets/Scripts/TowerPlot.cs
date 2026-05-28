@@ -1,18 +1,33 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class TowerPlot : MonoBehaviour
 {
     public bool towerPlaced = false;
 
-    public GameObject towerOptions, tower;
+    public GameObject demolishMenu, tower;
 
     public GameManager gm;
 
+    public List<MyPathfinding.Node> nodesInRange = new List<MyPathfinding.Node>();
+
+    public MyPathfinding.Node node;
+
+    public float weightIncrease;
+
     void Awake()
     {
-        towerOptions.SetActive(false);
+        demolishMenu.SetActive(false);
 
         gm = GameManager.FindFirstObjectByType<GameManager>();
+    }
+
+    void Start()
+    {
+        if (towerPlaced == true)
+        {
+            Invoke("IncreasePathWeight", 0.1f);
+        }
     }
 
     // Bring up demolish option and close menu after inactivity
@@ -20,7 +35,7 @@ public class TowerPlot : MonoBehaviour
     {
         if (towerPlaced == true)
         {
-            towerOptions.SetActive(true);
+            demolishMenu.SetActive(true);
 
             Invoke("MenuTimer", 4f);
         }
@@ -40,14 +55,43 @@ public class TowerPlot : MonoBehaviour
     // Destroy the tower on the plot
     public void Demolish()
     {
+        DecreasePathWeight();
         Destroy(transform.GetChild(1).gameObject);
         gm.availableTowers += 1;
         towerPlaced = false;
-        towerOptions.SetActive(false);
+        demolishMenu.SetActive(false);
     }
 
     public void MenuTimer()
     {
-        towerOptions.SetActive(false);
+        demolishMenu.SetActive(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        // When placed the tower will find all the nodes in its range
+        if (collision.TryGetComponent<MyPathfinding.Node>(out MyPathfinding.Node path))
+        {
+            nodesInRange.Add(path);
+            node = path;
+        }
+    }
+
+    // Increases the path weight
+    private void IncreasePathWeight()
+    {
+        foreach (var node in nodesInRange)
+        {
+            node.pathWeight += weightIncrease;
+        }
+    }
+
+    // Decrease the path weight back to normal when the tower is removed
+    private void DecreasePathWeight()
+    {
+        foreach (var node in nodesInRange)
+        {
+            node.pathWeight -= weightIncrease;
+        }
     }
 }

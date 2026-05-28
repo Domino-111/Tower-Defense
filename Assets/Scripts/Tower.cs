@@ -1,26 +1,28 @@
+using MyBinaryTree;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    public float damage, fireRate, boostCounter, killCount;
+    public float damage, fireRate;
 
     private List<Enemy> enemiesInRange = new List<Enemy>();
 
     public Enemy enemy;
 
     // Create a set list of shapes a tower or enemy can be
-    public enum Shape 
-    { circle, 
-      triangle, 
-      hexagon
+    public enum Shape
+    {
+        circle,
+        triangle,
+        hexagon
     }
 
     public Shape towerShape;
 
     void Update()
     {
-        if (enemiesInRange.Count>0)
+        if (enemiesInRange.Count > 0)
         {
             Attack();
         }
@@ -48,6 +50,7 @@ public class Tower : MonoBehaviour
         }
     }
 
+    // Attacks the enemy
     private void Attack()
     {
         enemy.health -= Time.deltaTime * damage;

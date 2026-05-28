@@ -8,7 +8,7 @@ namespace MyPathfinding
     {
         public List<Node> Neighbours;
 
-        float pathWeight;
+        public float pathWeight;
         public float PathWeight
         {
             get
