@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3111943152323371117}
   m_Layer: 5
   m_Name: Tower
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,9 +92,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tower
   damage: 1
   fireRate: 1
-  weightIncrease: 10
-  nodesInRange: []
-  node: {fileID: 0}
   enemy: {fileID: 0}
   towerShape: 2
 --- !u!58 &3240778835504833127

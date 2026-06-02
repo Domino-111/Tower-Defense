@@ -9,12 +9,6 @@ public class TowerPlot : MonoBehaviour
 
     public GameManager gm;
 
-    public List<MyPathfinding.Node> nodesInRange = new List<MyPathfinding.Node>();
-
-    public MyPathfinding.Node node;
-
-    public float weightIncrease;
-
     void Awake()
     {
         demolishMenu.SetActive(false);
@@ -55,7 +49,6 @@ public class TowerPlot : MonoBehaviour
     // Destroy the tower on the plot
     public void Demolish()
     {
-        DecreasePathWeight();
         Destroy(transform.GetChild(1).gameObject);
         gm.availableTowers += 1;
         towerPlaced = false;
@@ -65,33 +58,5 @@ public class TowerPlot : MonoBehaviour
     public void MenuTimer()
     {
         demolishMenu.SetActive(false);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        // When placed the tower will find all the nodes in its range
-        if (collision.TryGetComponent<MyPathfinding.Node>(out MyPathfinding.Node path))
-        {
-            nodesInRange.Add(path);
-            node = path;
-        }
-    }
-
-    // Increases the path weight
-    private void IncreasePathWeight()
-    {
-        foreach (var node in nodesInRange)
-        {
-            node.pathWeight += weightIncrease;
-        }
-    }
-
-    // Decrease the path weight back to normal when the tower is removed
-    private void DecreasePathWeight()
-    {
-        foreach (var node in nodesInRange)
-        {
-            node.pathWeight -= weightIncrease;
-        }
     }
 }

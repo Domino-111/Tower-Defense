@@ -96,6 +96,24 @@ namespace MyPathfinding
                 node.Neighbours.Remove(null);
             }
         }
+
+        // Increase the path weight once a tower is within range
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("Tower"))
+            {
+                pathWeight += 10;
+            }
+        }
+
+        // Decrease the path weight once a tower leaves range
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision.CompareTag("Tower"))
+            {
+                pathWeight -= 10;
+            }
+        }
     }
 }
 
