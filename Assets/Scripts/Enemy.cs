@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
     {
         CalculatePath();
 
-        InvokeRepeating("MoveToNextPoint", 2f, 2f);
+        InvokeRepeating("MoveToNextPoint", speed, speed);
 
     }
 
@@ -75,21 +75,7 @@ public class Enemy : MonoBehaviour
 
     private void CalculatePath()
     {
-        //ClosestNode();
-
         path = pathFinder.FindShortestPath(startNode, goalNode);
+        point = 0;
     }
-
-    //private void ClosestNode()
-    //{
-        
-
-    //    for (int i = 0; i == .Length; i++)
-    //    {
-    //        if (transform.position == [i].transform.position)
-    //        {
-    //            startNode = [i];
-    //        }
-    //    }
-    //}
 }
