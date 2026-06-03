@@ -64,11 +64,13 @@ namespace MyPathfinding
                     float neighbourWeight = Vector3.Distance(current.transform.position, neighbourNode.transform.position);
 
                     neighbourWeight += current.PathWeight;
+                    //Debug.Break();
 
                     if (neighbourWeight < neighbourNode.PathWeight)
                     {
                         neighbourNode.PathWeight = neighbourWeight;
                         neighbourNode.PreviousNode = current;
+                        //Debug.Break();
                     }
                 }
 

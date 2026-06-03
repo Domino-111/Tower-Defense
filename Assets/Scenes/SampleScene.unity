@@ -155,6 +155,7 @@ MonoBehaviour:
   - {fileID: 504569770}
   - {fileID: 1439055052}
   - {fileID: 1804684618}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &9021644
 SpriteRenderer:
@@ -224,7 +225,7 @@ Transform:
   m_GameObject: {fileID: 9021642}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -408,6 +409,7 @@ MonoBehaviour:
   - {fileID: 84598549}
   - {fileID: 935710336}
   - {fileID: 1262573238}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &24200991
 SpriteRenderer:
@@ -477,7 +479,7 @@ Transform:
   m_GameObject: {fileID: 24200989}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -555,6 +557,7 @@ MonoBehaviour:
   - {fileID: 1374357000}
   - {fileID: 199345542}
   - {fileID: 1632072429}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &33893338
 SpriteRenderer:
@@ -624,7 +627,7 @@ Transform:
   m_GameObject: {fileID: 33893336}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -701,6 +704,7 @@ MonoBehaviour:
   - {fileID: 556241314}
   - {fileID: 1728336363}
   - {fileID: 1576067990}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &44203629
 SpriteRenderer:
@@ -770,7 +774,7 @@ Transform:
   m_GameObject: {fileID: 44203627}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 0, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -848,6 +852,7 @@ MonoBehaviour:
   - {fileID: 1592128185}
   - {fileID: 913964120}
   - {fileID: 24200990}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &84598550
 SpriteRenderer:
@@ -917,7 +922,7 @@ Transform:
   m_GameObject: {fileID: 84598548}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -994,6 +999,7 @@ MonoBehaviour:
   - {fileID: 1510087934}
   - {fileID: 710487480}
   - {fileID: 1793621412}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &105435635
 SpriteRenderer:
@@ -1063,7 +1069,7 @@ Transform:
   m_GameObject: {fileID: 105435633}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 0, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1141,6 +1147,7 @@ MonoBehaviour:
   - {fileID: 977740507}
   - {fileID: 1658403891}
   - {fileID: 1697111946}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &108127120
 SpriteRenderer:
@@ -1210,7 +1217,7 @@ Transform:
   m_GameObject: {fileID: 108127118}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1287,6 +1294,7 @@ MonoBehaviour:
   - {fileID: 1870532452}
   - {fileID: 1920188709}
   - {fileID: 1703303011}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &120287289
 SpriteRenderer:
@@ -1356,7 +1364,7 @@ Transform:
   m_GameObject: {fileID: 120287287}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1434,6 +1442,7 @@ MonoBehaviour:
   - {fileID: 1262573238}
   - {fileID: 337675326}
   - {fileID: 1421810382}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &150449662
 SpriteRenderer:
@@ -1503,7 +1512,7 @@ Transform:
   m_GameObject: {fileID: 150449660}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1581,6 +1590,7 @@ MonoBehaviour:
   - {fileID: 1870532452}
   - {fileID: 1703303011}
   - {fileID: 2048674215}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &152100231
 SpriteRenderer:
@@ -1650,7 +1660,7 @@ Transform:
   m_GameObject: {fileID: 152100229}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1727,6 +1737,7 @@ MonoBehaviour:
   - {fileID: 156559113}
   - {fileID: 1417808419}
   - {fileID: 161740336}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &154240549
 SpriteRenderer:
@@ -1796,7 +1807,7 @@ Transform:
   m_GameObject: {fileID: 154240547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 0, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1874,6 +1885,7 @@ MonoBehaviour:
   - {fileID: 154240548}
   - {fileID: 2146714437}
   - {fileID: 940468910}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &156559114
 SpriteRenderer:
@@ -1943,7 +1955,7 @@ Transform:
   m_GameObject: {fileID: 156559112}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 0, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2021,6 +2033,7 @@ MonoBehaviour:
   - {fileID: 154240548}
   - {fileID: 1824808941}
   - {fileID: 1229534613}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &161740337
 SpriteRenderer:
@@ -2090,7 +2103,7 @@ Transform:
   m_GameObject: {fileID: 161740335}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2168,6 +2181,7 @@ MonoBehaviour:
   - {fileID: 616105859}
   - {fileID: 1511024001}
   - {fileID: 913964120}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &182430931
 SpriteRenderer:
@@ -2237,7 +2251,7 @@ Transform:
   m_GameObject: {fileID: 182430929}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2314,6 +2328,7 @@ MonoBehaviour:
   - {fileID: 1510087934}
   - {fileID: 2052188585}
   - {fileID: 710487480}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &194095877
 SpriteRenderer:
@@ -2383,7 +2398,7 @@ Transform:
   m_GameObject: {fileID: 194095875}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 0, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2460,6 +2475,7 @@ MonoBehaviour:
   - {fileID: 546526902}
   - {fileID: 361824855}
   - {fileID: 2143752590}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &195285687
 SpriteRenderer:
@@ -2529,7 +2545,7 @@ Transform:
   m_GameObject: {fileID: 195285685}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2607,6 +2623,7 @@ MonoBehaviour:
   - {fileID: 1387904787}
   - {fileID: 1907561504}
   - {fileID: 977740507}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &199345543
 SpriteRenderer:
@@ -2676,7 +2693,7 @@ Transform:
   m_GameObject: {fileID: 199345541}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2754,6 +2771,7 @@ MonoBehaviour:
   - {fileID: 1847624035}
   - {fileID: 1374357000}
   - {fileID: 2120301643}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &219092439
 SpriteRenderer:
@@ -2823,7 +2841,7 @@ Transform:
   m_GameObject: {fileID: 219092437}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2901,6 +2919,7 @@ MonoBehaviour:
   - {fileID: 2120301643}
   - {fileID: 1632072429}
   - {fileID: 1770652851}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &242189513
 SpriteRenderer:
@@ -2970,7 +2989,7 @@ Transform:
   m_GameObject: {fileID: 242189511}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3047,6 +3066,7 @@ MonoBehaviour:
   - {fileID: 513471798}
   - {fileID: 1530173799}
   - {fileID: 978887585}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &247244208
 SpriteRenderer:
@@ -3116,7 +3136,7 @@ Transform:
   m_GameObject: {fileID: 247244206}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 0, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3194,6 +3214,7 @@ MonoBehaviour:
   - {fileID: 2052188585}
   - {fileID: 923323979}
   - {fileID: 1960880684}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &265615279
 SpriteRenderer:
@@ -3263,7 +3284,7 @@ Transform:
   m_GameObject: {fileID: 265615277}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3340,6 +3361,7 @@ MonoBehaviour:
   - {fileID: 1764615915}
   - {fileID: 655813319}
   - {fileID: 355387318}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &281446880
 SpriteRenderer:
@@ -3409,7 +3431,7 @@ Transform:
   m_GameObject: {fileID: 281446878}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3486,6 +3508,7 @@ MonoBehaviour:
   - {fileID: 1723490737}
   - {fileID: 2129872562}
   - {fileID: 361824855}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &285688731
 SpriteRenderer:
@@ -3555,7 +3578,7 @@ Transform:
   m_GameObject: {fileID: 285688729}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3632,6 +3655,7 @@ MonoBehaviour:
   - {fileID: 1793621412}
   - {fileID: 1519427311}
   - {fileID: 1494172980}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &320886368
 SpriteRenderer:
@@ -3701,7 +3725,7 @@ Transform:
   m_GameObject: {fileID: 320886366}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 0, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3779,6 +3803,7 @@ MonoBehaviour:
   - {fileID: 398611382}
   - {fileID: 2120301643}
   - {fileID: 2067503049}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &337675327
 SpriteRenderer:
@@ -3848,7 +3873,7 @@ Transform:
   m_GameObject: {fileID: 337675325}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3926,6 +3951,7 @@ MonoBehaviour:
   - {fileID: 1777474162}
   - {fileID: 1566683086}
   - {fileID: 616105859}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &346295504
 SpriteRenderer:
@@ -3995,7 +4021,7 @@ Transform:
   m_GameObject: {fileID: 346295502}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4071,6 +4097,7 @@ MonoBehaviour:
   Neighbours:
   - {fileID: 281446879}
   - {fileID: 862475965}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &355387319
 SpriteRenderer:
@@ -4140,7 +4167,7 @@ Transform:
   m_GameObject: {fileID: 355387317}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4217,6 +4244,7 @@ MonoBehaviour:
   - {fileID: 1907561504}
   - {fileID: 285688730}
   - {fileID: 195285686}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &361824856
 SpriteRenderer:
@@ -4286,7 +4314,7 @@ Transform:
   m_GameObject: {fileID: 361824854}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4364,6 +4392,7 @@ MonoBehaviour:
   - {fileID: 769005786}
   - {fileID: 1920188709}
   - {fileID: 1870532452}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &364081377
 SpriteRenderer:
@@ -4433,7 +4462,7 @@ Transform:
   m_GameObject: {fileID: 364081375}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4475,6 +4504,127 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.0000076293945, y: -0.0000038146973}
   m_Radius: 1.125
+--- !u!1 &369633035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 369633036}
+  - component: {fileID: 369633039}
+  - component: {fileID: 369633038}
+  - component: {fileID: 369633037}
+  m_Layer: 5
+  m_Name: Play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &369633036
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369633035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1345569555}
+  m_Father: {fileID: 563979862}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 200, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &369633037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369633035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 369633038}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &369633038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369633035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2754717, g: 0.2754717, b: 0.2754717, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &369633039
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369633035}
+  m_CullTransparentMesh: 1
 --- !u!1 &398611381
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,6 +4661,7 @@ MonoBehaviour:
   - {fileID: 935710336}
   - {fileID: 219092438}
   - {fileID: 337675326}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &398611383
 SpriteRenderer:
@@ -4580,7 +4731,7 @@ Transform:
   m_GameObject: {fileID: 398611381}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4949,6 +5100,7 @@ MonoBehaviour:
   - {fileID: 826782419}
   - {fileID: 923323979}
   - {fileID: 940468910}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &419841986
 SpriteRenderer:
@@ -5018,7 +5170,7 @@ Transform:
   m_GameObject: {fileID: 419841984}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 0, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5096,6 +5248,7 @@ MonoBehaviour:
   - {fileID: 1229534613}
   - {fileID: 364081376}
   - {fileID: 1112386798}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &427686816
 SpriteRenderer:
@@ -5165,7 +5318,7 @@ Transform:
   m_GameObject: {fileID: 427686814}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5242,6 +5395,7 @@ MonoBehaviour:
   - {fileID: 1494172980}
   - {fileID: 1437011647}
   - {fileID: 816100174}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &428392636
 SpriteRenderer:
@@ -5311,7 +5465,7 @@ Transform:
   m_GameObject: {fileID: 428392634}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 0, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5495,6 +5649,7 @@ MonoBehaviour:
   - {fileID: 1654559329}
   - {fileID: 1319652253}
   - {fileID: 9021643}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &504569771
 SpriteRenderer:
@@ -5564,7 +5719,7 @@ Transform:
   m_GameObject: {fileID: 504569769}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5642,6 +5797,7 @@ MonoBehaviour:
   - {fileID: 1728336363}
   - {fileID: 150449661}
   - {fileID: 1381480826}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &510407109
 SpriteRenderer:
@@ -5711,7 +5867,7 @@ Transform:
   m_GameObject: {fileID: 510407107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5789,6 +5945,7 @@ MonoBehaviour:
   - {fileID: 2067503049}
   - {fileID: 1770652851}
   - {fileID: 1319652253}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &511637597
 SpriteRenderer:
@@ -5858,7 +6015,7 @@ Transform:
   m_GameObject: {fileID: 511637595}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5935,6 +6092,7 @@ MonoBehaviour:
   - {fileID: 1143753327}
   - {fileID: 1932022473}
   - {fileID: 247244207}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &513471799
 SpriteRenderer:
@@ -6004,7 +6162,7 @@ Transform:
   m_GameObject: {fileID: 513471797}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 0, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6219,6 +6377,7 @@ MonoBehaviour:
   - {fileID: 1907561504}
   - {fileID: 195285686}
   - {fileID: 1658403891}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &546526903
 SpriteRenderer:
@@ -6288,7 +6447,7 @@ Transform:
   m_GameObject: {fileID: 546526901}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6365,6 +6524,7 @@ MonoBehaviour:
   - {fileID: 816100174}
   - {fileID: 886867000}
   - {fileID: 44203628}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &556241315
 SpriteRenderer:
@@ -6434,7 +6594,7 @@ Transform:
   m_GameObject: {fileID: 556241313}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 0, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6476,6 +6636,83 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0000019073486, y: 0}
   m_Radius: 1.125
+--- !u!1 &563979861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563979862}
+  - component: {fileID: 563979864}
+  - component: {fileID: 563979863}
+  m_Layer: 5
+  m_Name: Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &563979862
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563979861}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1625850961}
+  - {fileID: 369633036}
+  m_Father: {fileID: 1832409643}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &563979863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563979861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &563979864
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563979861}
+  m_CullTransparentMesh: 1
 --- !u!1 &567396655
 GameObject:
   m_ObjectHideFlags: 0
@@ -6512,6 +6749,7 @@ MonoBehaviour:
   - {fileID: 1401488057}
   - {fileID: 1764615915}
   - {fileID: 765654913}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &567396657
 SpriteRenderer:
@@ -6581,7 +6819,7 @@ Transform:
   m_GameObject: {fileID: 567396655}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6765,6 +7003,7 @@ MonoBehaviour:
   - {fileID: 346295503}
   - {fileID: 1051268535}
   - {fileID: 182430930}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &616105860
 SpriteRenderer:
@@ -6834,7 +7073,7 @@ Transform:
   m_GameObject: {fileID: 616105858}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6996,6 +7235,7 @@ MonoBehaviour:
   - {fileID: 1613254649}
   - {fileID: 1236343104}
   - {fileID: 1808058495}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &627540597
 SpriteRenderer:
@@ -7065,7 +7305,7 @@ Transform:
   m_GameObject: {fileID: 627540595}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7248,6 +7488,7 @@ MonoBehaviour:
   - {fileID: 2048674215}
   - {fileID: 1703303011}
   - {fileID: 2129872562}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &644494364
 SpriteRenderer:
@@ -7317,7 +7558,7 @@ Transform:
   m_GameObject: {fileID: 644494362}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7395,6 +7636,7 @@ MonoBehaviour:
   - {fileID: 2070613212}
   - {fileID: 862475965}
   - {fileID: 281446879}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &655813320
 SpriteRenderer:
@@ -7464,7 +7706,7 @@ Transform:
   m_GameObject: {fileID: 655813318}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7542,6 +7784,7 @@ MonoBehaviour:
   - {fileID: 2048674215}
   - {fileID: 2129872562}
   - {fileID: 1723490737}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &697907625
 SpriteRenderer:
@@ -7611,7 +7854,7 @@ Transform:
   m_GameObject: {fileID: 697907623}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7689,6 +7932,7 @@ MonoBehaviour:
   - {fileID: 194095876}
   - {fileID: 265615278}
   - {fileID: 1051151577}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &710487481
 SpriteRenderer:
@@ -7758,7 +8002,7 @@ Transform:
   m_GameObject: {fileID: 710487479}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7836,6 +8080,7 @@ MonoBehaviour:
   - {fileID: 1960880684}
   - {fileID: 346295503}
   - {fileID: 934257756}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &722589496
 SpriteRenderer:
@@ -7905,7 +8150,7 @@ Transform:
   m_GameObject: {fileID: 722589494}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8088,6 +8333,7 @@ MonoBehaviour:
   - {fileID: 877633377}
   - {fileID: 567396656}
   - {fileID: 1813740523}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &765654914
 SpriteRenderer:
@@ -8157,7 +8403,7 @@ Transform:
   m_GameObject: {fileID: 765654912}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1439.5391, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 1439.5391, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8235,6 +8481,7 @@ MonoBehaviour:
   - {fileID: 1824808941}
   - {fileID: 1539731317}
   - {fileID: 364081376}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &769005787
 SpriteRenderer:
@@ -8304,7 +8551,7 @@ Transform:
   m_GameObject: {fileID: 769005785}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8382,6 +8629,7 @@ MonoBehaviour:
   - {fileID: 1112386798}
   - {fileID: 152100230}
   - {fileID: 1787666458}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &779825991
 SpriteRenderer:
@@ -8451,7 +8699,7 @@ Transform:
   m_GameObject: {fileID: 779825989}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8529,6 +8777,7 @@ MonoBehaviour:
   - {fileID: 1381480826}
   - {fileID: 1654559329}
   - {fileID: 2139749909}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &790405299
 SpriteRenderer:
@@ -8598,7 +8847,7 @@ Transform:
   m_GameObject: {fileID: 790405297}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8675,6 +8924,7 @@ MonoBehaviour:
   - {fileID: 428392635}
   - {fileID: 1145036249}
   - {fileID: 556241314}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &816100175
 SpriteRenderer:
@@ -8744,7 +8994,7 @@ Transform:
   m_GameObject: {fileID: 816100173}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 0, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8972,6 +9222,8 @@ MonoBehaviour:
   - {fileID: 419841985}
   - {fileID: 156559113}
   - {fileID: 1122069931}
+  - {fileID: 940468910}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &826782420
 SpriteRenderer:
@@ -9041,7 +9293,7 @@ Transform:
   m_GameObject: {fileID: 826782418}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 0, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9118,6 +9370,7 @@ MonoBehaviour:
   - {fileID: 655813319}
   - {fileID: 1013391683}
   - {fileID: 355387318}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &862475966
 SpriteRenderer:
@@ -9187,7 +9440,7 @@ Transform:
   m_GameObject: {fileID: 862475964}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9370,6 +9623,7 @@ MonoBehaviour:
   - {fileID: 1808058495}
   - {fileID: 1236343104}
   - {fileID: 765654913}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &877633378
 SpriteRenderer:
@@ -9439,7 +9693,7 @@ Transform:
   m_GameObject: {fileID: 877633376}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1439.5391, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 1439.5391, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9517,6 +9771,7 @@ MonoBehaviour:
   - {fileID: 1145036249}
   - {fileID: 24200990}
   - {fileID: 1728336363}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &886867001
 SpriteRenderer:
@@ -9586,7 +9841,7 @@ Transform:
   m_GameObject: {fileID: 886866999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9770,6 +10025,7 @@ MonoBehaviour:
   - {fileID: 182430930}
   - {fileID: 1074482060}
   - {fileID: 935710336}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &913964121
 SpriteRenderer:
@@ -9839,7 +10095,7 @@ Transform:
   m_GameObject: {fileID: 913964119}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9917,6 +10173,7 @@ MonoBehaviour:
   - {fileID: 419841985}
   - {fileID: 1122069931}
   - {fileID: 1777474162}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &923323980
 SpriteRenderer:
@@ -9986,7 +10243,7 @@ Transform:
   m_GameObject: {fileID: 923323978}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10064,6 +10321,7 @@ MonoBehaviour:
   - {fileID: 722589495}
   - {fileID: 616105859}
   - {fileID: 1592128185}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &934257757
 SpriteRenderer:
@@ -10133,7 +10391,7 @@ Transform:
   m_GameObject: {fileID: 934257755}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10211,6 +10469,7 @@ MonoBehaviour:
   - {fileID: 913964120}
   - {fileID: 1847624035}
   - {fileID: 398611382}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &935710337
 SpriteRenderer:
@@ -10280,7 +10539,7 @@ Transform:
   m_GameObject: {fileID: 935710335}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10356,7 +10615,8 @@ MonoBehaviour:
   Neighbours:
   - {fileID: 419841985}
   - {fileID: 156559113}
-  - {fileID: 1122069931}
+  - {fileID: 826782419}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &940468911
 SpriteRenderer:
@@ -10426,7 +10686,7 @@ Transform:
   m_GameObject: {fileID: 940468909}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -75, y: 359.88477, z: -1}
+  m_LocalPosition: {x: -75, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10504,6 +10764,7 @@ MonoBehaviour:
   - {fileID: 199345542}
   - {fileID: 546526902}
   - {fileID: 108127119}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &977740508
 SpriteRenderer:
@@ -10573,7 +10834,7 @@ Transform:
   m_GameObject: {fileID: 977740506}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10649,6 +10910,7 @@ MonoBehaviour:
   Neighbours:
   - {fileID: 247244207}
   - {fileID: 1102783313}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &978887586
 SpriteRenderer:
@@ -10718,7 +10980,7 @@ Transform:
   m_GameObject: {fileID: 978887584}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 0, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10796,6 +11058,7 @@ MonoBehaviour:
   - {fileID: 1770652851}
   - {fileID: 1456873709}
   - {fileID: 1825578326}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1007925044
 SpriteRenderer:
@@ -10865,7 +11128,7 @@ Transform:
   m_GameObject: {fileID: 1007925042}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10942,6 +11205,7 @@ MonoBehaviour:
   - {fileID: 2070613212}
   - {fileID: 1350074955}
   - {fileID: 862475965}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1013391684
 SpriteRenderer:
@@ -11011,7 +11275,7 @@ Transform:
   m_GameObject: {fileID: 1013391682}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11087,6 +11351,7 @@ MonoBehaviour:
   Neighbours:
   - {fileID: 1386495698}
   - {fileID: 1808058495}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1048695429
 SpriteRenderer:
@@ -11156,7 +11421,7 @@ Transform:
   m_GameObject: {fileID: 1048695427}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1439.5391, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 1439.5391, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11234,6 +11499,7 @@ MonoBehaviour:
   - {fileID: 710487480}
   - {fileID: 1960880684}
   - {fileID: 1519427311}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1051151578
 SpriteRenderer:
@@ -11303,7 +11569,7 @@ Transform:
   m_GameObject: {fileID: 1051151576}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11381,6 +11647,7 @@ MonoBehaviour:
   - {fileID: 1566683086}
   - {fileID: 1162301749}
   - {fileID: 1511024001}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1051268536
 SpriteRenderer:
@@ -11450,7 +11717,7 @@ Transform:
   m_GameObject: {fileID: 1051268534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11528,6 +11795,7 @@ MonoBehaviour:
   - {fileID: 1511024001}
   - {fileID: 1976815775}
   - {fileID: 1847624035}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1074482061
 SpriteRenderer:
@@ -11597,7 +11865,7 @@ Transform:
   m_GameObject: {fileID: 1074482059}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11675,6 +11943,7 @@ MonoBehaviour:
   - {fileID: 1632072429}
   - {fileID: 108127119}
   - {fileID: 1456873709}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1088357568
 SpriteRenderer:
@@ -11744,7 +12013,7 @@ Transform:
   m_GameObject: {fileID: 1088357566}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11822,6 +12091,7 @@ MonoBehaviour:
   - {fileID: 1825578326}
   - {fileID: 1401488057}
   - {fileID: 1236343104}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1101254378
 SpriteRenderer:
@@ -11891,7 +12161,7 @@ Transform:
   m_GameObject: {fileID: 1101254376}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11968,6 +12238,7 @@ MonoBehaviour:
   - {fileID: 978887585}
   - {fileID: 1530173799}
   - {fileID: 1386495698}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1102783314
 SpriteRenderer:
@@ -12037,7 +12308,7 @@ Transform:
   m_GameObject: {fileID: 1102783312}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12115,6 +12386,7 @@ MonoBehaviour:
   - {fileID: 427686815}
   - {fileID: 1870532452}
   - {fileID: 779825990}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1112386799
 SpriteRenderer:
@@ -12184,7 +12456,7 @@ Transform:
   m_GameObject: {fileID: 1112386797}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12260,6 +12532,7 @@ MonoBehaviour:
   Neighbours:
   - {fileID: 1417808419}
   - {fileID: 1765919946}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1116118037
 SpriteRenderer:
@@ -12329,7 +12602,7 @@ Transform:
   m_GameObject: {fileID: 1116118035}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 0, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12407,7 +12680,7 @@ MonoBehaviour:
   - {fileID: 826782419}
   - {fileID: 2146714437}
   - {fileID: 1697637568}
-  - {fileID: 940468910}
+  towerWeight: 0
   pathWeight: 5
 --- !u!212 &1122069932
 SpriteRenderer:
@@ -12477,7 +12750,7 @@ Transform:
   m_GameObject: {fileID: 1122069930}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12554,6 +12827,7 @@ MonoBehaviour:
   - {fileID: 1433151375}
   - {fileID: 2139749909}
   - {fileID: 513471798}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1143753328
 SpriteRenderer:
@@ -12623,7 +12897,7 @@ Transform:
   m_GameObject: {fileID: 1143753326}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 0, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12683,7 +12957,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1144414763
 Transform:
   m_ObjectHideFlags: 0
@@ -12712,12 +12986,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 1
-  speed: 100
+  speed: 1
   myShape: 2
   pathFinder: {fileID: 1777493606}
-  startNode: {fileID: 940468910}
   goalNode: {fileID: 877633377}
-  point: 0
+  startNode: {fileID: 940468910}
+  path: []
+  gm: {fileID: 1777493604}
 --- !u!212 &1144414765
 SpriteRenderer:
   serializedVersion: 2
@@ -12849,6 +13124,7 @@ MonoBehaviour:
   - {fileID: 1437011647}
   - {fileID: 84598549}
   - {fileID: 886867000}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1145036250
 SpriteRenderer:
@@ -12918,7 +13194,7 @@ Transform:
   m_GameObject: {fileID: 1145036248}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12996,6 +13272,7 @@ MonoBehaviour:
   - {fileID: 1860897822}
   - {fileID: 1112386798}
   - {fileID: 1532951196}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1162301750
 SpriteRenderer:
@@ -13065,7 +13342,7 @@ Transform:
   m_GameObject: {fileID: 1162301748}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13143,6 +13420,7 @@ MonoBehaviour:
   - {fileID: 1658403891}
   - {fileID: 1350074955}
   - {fileID: 2070613212}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1172031040
 SpriteRenderer:
@@ -13212,7 +13490,7 @@ Transform:
   m_GameObject: {fileID: 1172031038}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13501,6 +13779,7 @@ MonoBehaviour:
   - {fileID: 1576067990}
   - {fileID: 1381480826}
   - {fileID: 1433151375}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1213930943
 SpriteRenderer:
@@ -13570,7 +13849,7 @@ Transform:
   m_GameObject: {fileID: 1213930941}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 0, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13648,6 +13927,7 @@ MonoBehaviour:
   - {fileID: 161740336}
   - {fileID: 769005786}
   - {fileID: 427686815}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1229534614
 SpriteRenderer:
@@ -13717,7 +13997,7 @@ Transform:
   m_GameObject: {fileID: 1229534612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13795,6 +14075,7 @@ MonoBehaviour:
   - {fileID: 1101254377}
   - {fileID: 567396656}
   - {fileID: 877633377}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1236343105
 SpriteRenderer:
@@ -13864,7 +14145,7 @@ Transform:
   m_GameObject: {fileID: 1236343103}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14048,6 +14329,7 @@ MonoBehaviour:
   - {fileID: 24200990}
   - {fileID: 398611382}
   - {fileID: 150449661}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1262573239
 SpriteRenderer:
@@ -14117,7 +14399,7 @@ Transform:
   m_GameObject: {fileID: 1262573237}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14195,6 +14477,7 @@ MonoBehaviour:
   - {fileID: 1456873709}
   - {fileID: 1305569069}
   - {fileID: 1401488057}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1271779851
 SpriteRenderer:
@@ -14264,7 +14547,7 @@ Transform:
   m_GameObject: {fileID: 1271779849}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14342,6 +14625,7 @@ MonoBehaviour:
   - {fileID: 1697111946}
   - {fileID: 2070613212}
   - {fileID: 1694168841}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1305569070
 SpriteRenderer:
@@ -14411,7 +14695,7 @@ Transform:
   m_GameObject: {fileID: 1305569068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14489,6 +14773,7 @@ MonoBehaviour:
   - {fileID: 511637596}
   - {fileID: 1007925043}
   - {fileID: 1439055052}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1319652254
 SpriteRenderer:
@@ -14558,7 +14843,7 @@ Transform:
   m_GameObject: {fileID: 1319652252}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14600,6 +14885,143 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0000076293945, y: 0}
   m_Radius: 1.125
+--- !u!1 &1345569554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1345569555}
+  - component: {fileID: 1345569557}
+  - component: {fileID: 1345569556}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1345569555
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345569554}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 369633036}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1345569556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345569554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Play
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4285256448
+  m_fontColor: {r: 0, g: 0.827451, b: 0.41960785, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1345569557
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345569554}
+  m_CullTransparentMesh: 1
 --- !u!1 &1350074954
 GameObject:
   m_ObjectHideFlags: 0
@@ -14635,6 +15057,7 @@ MonoBehaviour:
   - {fileID: 1172031039}
   - {fileID: 2143752590}
   - {fileID: 1013391683}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1350074956
 SpriteRenderer:
@@ -14704,7 +15127,7 @@ Transform:
   m_GameObject: {fileID: 1350074954}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14837,6 +15260,7 @@ MonoBehaviour:
   - {fileID: 2034832759}
   - {fileID: 1387904787}
   - {fileID: 33893337}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1374357001
 SpriteRenderer:
@@ -14906,7 +15330,7 @@ Transform:
   m_GameObject: {fileID: 1374356999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14984,6 +15408,7 @@ MonoBehaviour:
   - {fileID: 510407108}
   - {fileID: 1421810382}
   - {fileID: 790405298}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1381480827
 SpriteRenderer:
@@ -15053,7 +15478,7 @@ Transform:
   m_GameObject: {fileID: 1381480825}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15131,6 +15556,7 @@ MonoBehaviour:
   - {fileID: 1804684618}
   - {fileID: 627540596}
   - {fileID: 1048695428}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1386495699
 SpriteRenderer:
@@ -15200,7 +15626,7 @@ Transform:
   m_GameObject: {fileID: 1386495697}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15278,6 +15704,7 @@ MonoBehaviour:
   - {fileID: 2088843832}
   - {fileID: 1723490737}
   - {fileID: 199345542}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1387904788
 SpriteRenderer:
@@ -15347,7 +15774,7 @@ Transform:
   m_GameObject: {fileID: 1387904786}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15425,6 +15852,7 @@ MonoBehaviour:
   - {fileID: 1271779850}
   - {fileID: 1694168841}
   - {fileID: 567396656}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1401488058
 SpriteRenderer:
@@ -15494,7 +15922,7 @@ Transform:
   m_GameObject: {fileID: 1401488056}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15571,6 +15999,7 @@ MonoBehaviour:
   - {fileID: 154240548}
   - {fileID: 1116118036}
   - {fileID: 1824808941}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1417808420
 SpriteRenderer:
@@ -15640,7 +16069,7 @@ Transform:
   m_GameObject: {fileID: 1417808418}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 0, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15718,6 +16147,7 @@ MonoBehaviour:
   - {fileID: 150449661}
   - {fileID: 2067503049}
   - {fileID: 1654559329}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1421810383
 SpriteRenderer:
@@ -15787,7 +16217,7 @@ Transform:
   m_GameObject: {fileID: 1421810381}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15864,6 +16294,7 @@ MonoBehaviour:
   - {fileID: 1213930942}
   - {fileID: 790405298}
   - {fileID: 1143753327}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1433151376
 SpriteRenderer:
@@ -15933,7 +16364,7 @@ Transform:
   m_GameObject: {fileID: 1433151374}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 0, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16117,6 +16548,7 @@ MonoBehaviour:
   - {fileID: 1687037346}
   - {fileID: 1592128185}
   - {fileID: 1145036249}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1437011648
 SpriteRenderer:
@@ -16186,7 +16618,7 @@ Transform:
   m_GameObject: {fileID: 1437011646}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16264,6 +16696,7 @@ MonoBehaviour:
   - {fileID: 1319652253}
   - {fileID: 1825578326}
   - {fileID: 1613254649}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1439055053
 SpriteRenderer:
@@ -16333,7 +16766,7 @@ Transform:
   m_GameObject: {fileID: 1439055051}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16411,6 +16844,7 @@ MonoBehaviour:
   - {fileID: 1088357567}
   - {fileID: 1697111946}
   - {fileID: 1271779850}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1456873710
 SpriteRenderer:
@@ -16480,7 +16914,7 @@ Transform:
   m_GameObject: {fileID: 1456873708}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16557,6 +16991,7 @@ MonoBehaviour:
   - {fileID: 320886367}
   - {fileID: 1687037346}
   - {fileID: 428392635}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1494172981
 SpriteRenderer:
@@ -16626,7 +17061,7 @@ Transform:
   m_GameObject: {fileID: 1494172979}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 0, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16702,6 +17137,7 @@ MonoBehaviour:
   Neighbours:
   - {fileID: 194095876}
   - {fileID: 105435634}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1510087935
 SpriteRenderer:
@@ -16771,7 +17207,7 @@ Transform:
   m_GameObject: {fileID: 1510087933}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16849,6 +17285,7 @@ MonoBehaviour:
   - {fileID: 1051268535}
   - {fileID: 1532951196}
   - {fileID: 1074482060}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1511024002
 SpriteRenderer:
@@ -16918,7 +17355,7 @@ Transform:
   m_GameObject: {fileID: 1511024000}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16996,6 +17433,7 @@ MonoBehaviour:
   - {fileID: 1051151577}
   - {fileID: 722589495}
   - {fileID: 1687037346}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1519427312
 SpriteRenderer:
@@ -17065,7 +17503,7 @@ Transform:
   m_GameObject: {fileID: 1519427310}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17222,6 +17660,7 @@ MonoBehaviour:
   - {fileID: 1932022473}
   - {fileID: 1804684618}
   - {fileID: 1102783313}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1530173800
 SpriteRenderer:
@@ -17291,7 +17730,7 @@ Transform:
   m_GameObject: {fileID: 1530173798}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17369,6 +17808,7 @@ MonoBehaviour:
   - {fileID: 1162301749}
   - {fileID: 779825990}
   - {fileID: 1976815775}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1532951197
 SpriteRenderer:
@@ -17438,7 +17878,7 @@ Transform:
   m_GameObject: {fileID: 1532951195}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17515,6 +17955,7 @@ MonoBehaviour:
   - {fileID: 769005786}
   - {fileID: 1765919946}
   - {fileID: 1920188709}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1539731318
 SpriteRenderer:
@@ -17584,7 +18025,7 @@ Transform:
   m_GameObject: {fileID: 1539731316}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17662,6 +18103,7 @@ MonoBehaviour:
   - {fileID: 1697637568}
   - {fileID: 1860897822}
   - {fileID: 1051268535}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1566683087
 SpriteRenderer:
@@ -17731,7 +18173,7 @@ Transform:
   m_GameObject: {fileID: 1566683085}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17808,6 +18250,7 @@ MonoBehaviour:
   - {fileID: 44203628}
   - {fileID: 510407108}
   - {fileID: 1213930942}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1576067991
 SpriteRenderer:
@@ -17877,7 +18320,7 @@ Transform:
   m_GameObject: {fileID: 1576067989}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 0, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17955,6 +18398,7 @@ MonoBehaviour:
   - {fileID: 934257756}
   - {fileID: 182430930}
   - {fileID: 84598549}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1592128186
 SpriteRenderer:
@@ -18024,7 +18468,7 @@ Transform:
   m_GameObject: {fileID: 1592128184}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18102,6 +18546,7 @@ MonoBehaviour:
   - {fileID: 1439055052}
   - {fileID: 1101254377}
   - {fileID: 627540596}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1613254650
 SpriteRenderer:
@@ -18171,7 +18616,7 @@ Transform:
   m_GameObject: {fileID: 1613254648}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18213,6 +18658,143 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0000076293945, y: 0}
   m_Radius: 1.125
+--- !u!1 &1625850960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1625850961}
+  - component: {fileID: 1625850963}
+  - component: {fileID: 1625850962}
+  m_Layer: 5
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1625850961
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625850960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 563979862}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1625850962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625850960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Phantom Rush
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 3
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1625850963
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625850960}
+  m_CullTransparentMesh: 1
 --- !u!1 &1632072428
 GameObject:
   m_ObjectHideFlags: 0
@@ -18249,6 +18831,7 @@ MonoBehaviour:
   - {fileID: 33893337}
   - {fileID: 977740507}
   - {fileID: 1088357567}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1632072430
 SpriteRenderer:
@@ -18318,7 +18901,7 @@ Transform:
   m_GameObject: {fileID: 1632072428}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18396,6 +18979,7 @@ MonoBehaviour:
   - {fileID: 1421810382}
   - {fileID: 511637596}
   - {fileID: 504569770}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1654559330
 SpriteRenderer:
@@ -18465,7 +19049,7 @@ Transform:
   m_GameObject: {fileID: 1654559328}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18543,6 +19127,7 @@ MonoBehaviour:
   - {fileID: 546526902}
   - {fileID: 2143752590}
   - {fileID: 1172031039}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1658403892
 SpriteRenderer:
@@ -18612,7 +19197,7 @@ Transform:
   m_GameObject: {fileID: 1658403890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18796,6 +19381,7 @@ MonoBehaviour:
   - {fileID: 1519427311}
   - {fileID: 934257756}
   - {fileID: 1437011647}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1687037347
 SpriteRenderer:
@@ -18865,7 +19451,7 @@ Transform:
   m_GameObject: {fileID: 1687037345}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18943,6 +19529,7 @@ MonoBehaviour:
   - {fileID: 1305569069}
   - {fileID: 655813319}
   - {fileID: 1764615915}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1694168842
 SpriteRenderer:
@@ -19012,7 +19599,7 @@ Transform:
   m_GameObject: {fileID: 1694168840}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19090,6 +19677,7 @@ MonoBehaviour:
   - {fileID: 108127119}
   - {fileID: 1172031039}
   - {fileID: 1305569069}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1697111947
 SpriteRenderer:
@@ -19159,7 +19747,7 @@ Transform:
   m_GameObject: {fileID: 1697111945}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19237,6 +19825,7 @@ MonoBehaviour:
   - {fileID: 1122069931}
   - {fileID: 1716307829}
   - {fileID: 1566683086}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1697637569
 SpriteRenderer:
@@ -19306,7 +19895,7 @@ Transform:
   m_GameObject: {fileID: 1697637567}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19383,6 +19972,7 @@ MonoBehaviour:
   - {fileID: 152100230}
   - {fileID: 120287288}
   - {fileID: 644494363}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1703303012
 SpriteRenderer:
@@ -19452,7 +20042,7 @@ Transform:
   m_GameObject: {fileID: 1703303010}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 449.85596, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 449.85596, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19530,6 +20120,7 @@ MonoBehaviour:
   - {fileID: 2146714437}
   - {fileID: 1229534613}
   - {fileID: 1860897822}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1716307830
 SpriteRenderer:
@@ -19599,7 +20190,7 @@ Transform:
   m_GameObject: {fileID: 1716307828}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19677,6 +20268,7 @@ MonoBehaviour:
   - {fileID: 697907624}
   - {fileID: 285688730}
   - {fileID: 1907561504}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1723490738
 SpriteRenderer:
@@ -19746,7 +20338,7 @@ Transform:
   m_GameObject: {fileID: 1723490736}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19824,6 +20416,7 @@ MonoBehaviour:
   - {fileID: 886867000}
   - {fileID: 1262573238}
   - {fileID: 510407108}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1728336364
 SpriteRenderer:
@@ -19893,7 +20486,7 @@ Transform:
   m_GameObject: {fileID: 1728336362}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.76953, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 719.76953, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19971,6 +20564,7 @@ MonoBehaviour:
   - {fileID: 1694168841}
   - {fileID: 281446879}
   - {fileID: 1813740523}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1764615916
 SpriteRenderer:
@@ -20040,7 +20634,7 @@ Transform:
   m_GameObject: {fileID: 1764615914}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1349.5679, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 1349.5679, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20117,6 +20711,7 @@ MonoBehaviour:
   - {fileID: 1824808941}
   - {fileID: 1116118036}
   - {fileID: 1539731317}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1765919947
 SpriteRenderer:
@@ -20186,7 +20781,7 @@ Transform:
   m_GameObject: {fileID: 1765919945}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20264,6 +20859,7 @@ MonoBehaviour:
   - {fileID: 242189512}
   - {fileID: 1088357567}
   - {fileID: 1007925043}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1770652852
 SpriteRenderer:
@@ -20333,7 +20929,7 @@ Transform:
   m_GameObject: {fileID: 1770652850}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20411,6 +21007,7 @@ MonoBehaviour:
   - {fileID: 923323979}
   - {fileID: 1697637568}
   - {fileID: 346295503}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1777474163
 SpriteRenderer:
@@ -20480,7 +21077,7 @@ Transform:
   m_GameObject: {fileID: 1777474161}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20619,6 +21216,7 @@ MonoBehaviour:
   - {fileID: 779825990}
   - {fileID: 2048674215}
   - {fileID: 2088843832}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1787666459
 SpriteRenderer:
@@ -20688,7 +21286,7 @@ Transform:
   m_GameObject: {fileID: 1787666457}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20765,6 +21363,7 @@ MonoBehaviour:
   - {fileID: 105435634}
   - {fileID: 1051151577}
   - {fileID: 320886367}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1793621413
 SpriteRenderer:
@@ -20834,7 +21433,7 @@ Transform:
   m_GameObject: {fileID: 1793621411}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 0, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20912,6 +21511,7 @@ MonoBehaviour:
   - {fileID: 9021643}
   - {fileID: 1613254649}
   - {fileID: 1386495698}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1804684619
 SpriteRenderer:
@@ -20981,7 +21581,7 @@ Transform:
   m_GameObject: {fileID: 1804684617}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1259.5967, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 1259.5967, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21058,6 +21658,7 @@ MonoBehaviour:
   - {fileID: 1048695428}
   - {fileID: 627540596}
   - {fileID: 877633377}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1808058496
 SpriteRenderer:
@@ -21127,7 +21728,7 @@ Transform:
   m_GameObject: {fileID: 1808058494}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1439.5391, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 1439.5391, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21203,6 +21804,7 @@ MonoBehaviour:
   Neighbours:
   - {fileID: 765654913}
   - {fileID: 1764615915}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1813740524
 SpriteRenderer:
@@ -21272,7 +21874,7 @@ Transform:
   m_GameObject: {fileID: 1813740522}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1439.5391, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 1439.5391, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21350,6 +21952,7 @@ MonoBehaviour:
   - {fileID: 1417808419}
   - {fileID: 1765919946}
   - {fileID: 769005786}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1824808942
 SpriteRenderer:
@@ -21419,7 +22022,7 @@ Transform:
   m_GameObject: {fileID: 1824808940}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21497,6 +22100,7 @@ MonoBehaviour:
   - {fileID: 1007925043}
   - {fileID: 1271779850}
   - {fileID: 1101254377}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1825578327
 SpriteRenderer:
@@ -21566,7 +22170,7 @@ Transform:
   m_GameObject: {fileID: 1825578325}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21704,6 +22308,7 @@ RectTransform:
   m_Children:
   - {fileID: 419401737}
   - {fileID: 1951140398}
+  - {fileID: 563979862}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -21747,6 +22352,7 @@ MonoBehaviour:
   - {fileID: 1074482060}
   - {fileID: 2034832759}
   - {fileID: 219092438}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1847624036
 SpriteRenderer:
@@ -21816,7 +22422,7 @@ Transform:
   m_GameObject: {fileID: 1847624034}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21894,6 +22500,7 @@ MonoBehaviour:
   - {fileID: 1716307829}
   - {fileID: 427686815}
   - {fileID: 1162301749}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1860897823
 SpriteRenderer:
@@ -21963,7 +22570,7 @@ Transform:
   m_GameObject: {fileID: 1860897821}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22041,6 +22648,7 @@ MonoBehaviour:
   - {fileID: 364081376}
   - {fileID: 120287288}
   - {fileID: 152100230}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1870532453
 SpriteRenderer:
@@ -22110,7 +22718,7 @@ Transform:
   m_GameObject: {fileID: 1870532451}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 359.88477, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 359.88477, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22188,6 +22796,7 @@ MonoBehaviour:
   - {fileID: 1723490737}
   - {fileID: 361824855}
   - {fileID: 546526902}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1907561505
 SpriteRenderer:
@@ -22257,7 +22866,7 @@ Transform:
   m_GameObject: {fileID: 1907561503}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22334,6 +22943,7 @@ MonoBehaviour:
   - {fileID: 364081376}
   - {fileID: 1539731317}
   - {fileID: 120287288}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1920188710
 SpriteRenderer:
@@ -22403,7 +23013,7 @@ Transform:
   m_GameObject: {fileID: 1920188708}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.91357, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 269.91357, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22683,6 +23293,7 @@ MonoBehaviour:
   - {fileID: 2139749909}
   - {fileID: 9021643}
   - {fileID: 1530173799}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1932022474
 SpriteRenderer:
@@ -22752,7 +23363,7 @@ Transform:
   m_GameObject: {fileID: 1932022472}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22967,6 +23578,7 @@ MonoBehaviour:
   - {fileID: 265615278}
   - {fileID: 1777474162}
   - {fileID: 722589495}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1960880685
 SpriteRenderer:
@@ -23036,7 +23648,7 @@ Transform:
   m_GameObject: {fileID: 1960880683}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 179.94238, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 179.94238, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23114,6 +23726,7 @@ MonoBehaviour:
   - {fileID: 1532951196}
   - {fileID: 1787666458}
   - {fileID: 2034832759}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &1976815776
 SpriteRenderer:
@@ -23183,7 +23796,7 @@ Transform:
   m_GameObject: {fileID: 1976815774}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23261,6 +23874,7 @@ MonoBehaviour:
   - {fileID: 1976815775}
   - {fileID: 2088843832}
   - {fileID: 1374357000}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2034832760
 SpriteRenderer:
@@ -23330,7 +23944,7 @@ Transform:
   m_GameObject: {fileID: 2034832758}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23408,6 +24022,7 @@ MonoBehaviour:
   - {fileID: 152100230}
   - {fileID: 644494363}
   - {fileID: 697907624}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2048674216
 SpriteRenderer:
@@ -23477,7 +24092,7 @@ Transform:
   m_GameObject: {fileID: 2048674214}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 539.82715, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 539.82715, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23554,6 +24169,7 @@ MonoBehaviour:
   - {fileID: 194095876}
   - {fileID: 419841985}
   - {fileID: 265615278}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2052188586
 SpriteRenderer:
@@ -23623,7 +24239,7 @@ Transform:
   m_GameObject: {fileID: 2052188584}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 179.94238, z: -1}
+  m_LocalPosition: {x: 0, y: 179.94238, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23701,6 +24317,7 @@ MonoBehaviour:
   - {fileID: 337675326}
   - {fileID: 242189512}
   - {fileID: 511637596}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2067503050
 SpriteRenderer:
@@ -23770,7 +24387,7 @@ Transform:
   m_GameObject: {fileID: 2067503048}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 899.7119, y: 269.91357, z: -1}
+  m_LocalPosition: {x: 899.7119, y: 269.91357, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23848,6 +24465,7 @@ MonoBehaviour:
   - {fileID: 1172031039}
   - {fileID: 1013391683}
   - {fileID: 655813319}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2070613213
 SpriteRenderer:
@@ -23917,7 +24535,7 @@ Transform:
   m_GameObject: {fileID: 2070613211}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1169.6255, y: 629.79834, z: -1}
+  m_LocalPosition: {x: 1169.6255, y: 629.79834, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23995,6 +24613,7 @@ MonoBehaviour:
   - {fileID: 1787666458}
   - {fileID: 697907624}
   - {fileID: 1387904787}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2088843833
 SpriteRenderer:
@@ -24064,7 +24683,7 @@ Transform:
   m_GameObject: {fileID: 2088843831}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 539.82715, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 539.82715, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24142,6 +24761,7 @@ MonoBehaviour:
   - {fileID: 219092438}
   - {fileID: 33893337}
   - {fileID: 242189512}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2120301644
 SpriteRenderer:
@@ -24211,7 +24831,7 @@ Transform:
   m_GameObject: {fileID: 2120301642}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 809.7407, y: 359.88477, z: -1}
+  m_LocalPosition: {x: 809.7407, y: 359.88477, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24288,6 +24908,7 @@ MonoBehaviour:
   - {fileID: 697907624}
   - {fileID: 644494363}
   - {fileID: 285688730}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2129872563
 SpriteRenderer:
@@ -24357,7 +24978,7 @@ Transform:
   m_GameObject: {fileID: 2129872561}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 629.79834, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 629.79834, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24435,6 +25056,7 @@ MonoBehaviour:
   - {fileID: 790405298}
   - {fileID: 504569770}
   - {fileID: 1932022473}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2139749910
 SpriteRenderer:
@@ -24504,7 +25126,7 @@ Transform:
   m_GameObject: {fileID: 2139749908}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1079.6543, y: 89.97119, z: -1}
+  m_LocalPosition: {x: 1079.6543, y: 89.97119, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24581,6 +25203,7 @@ MonoBehaviour:
   - {fileID: 1658403891}
   - {fileID: 195285686}
   - {fileID: 1350074955}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2143752591
 SpriteRenderer:
@@ -24650,7 +25273,7 @@ Transform:
   m_GameObject: {fileID: 2143752589}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 989.6831, y: 719.76953, z: -1}
+  m_LocalPosition: {x: 989.6831, y: 719.76953, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24728,6 +25351,7 @@ MonoBehaviour:
   - {fileID: 156559113}
   - {fileID: 161740336}
   - {fileID: 1716307829}
+  towerWeight: 0
   pathWeight: 1
 --- !u!212 &2146714438
 SpriteRenderer:
@@ -24797,7 +25421,7 @@ Transform:
   m_GameObject: {fileID: 2146714436}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.97119, y: 449.85596, z: -1}
+  m_LocalPosition: {x: 89.97119, y: 449.85596, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

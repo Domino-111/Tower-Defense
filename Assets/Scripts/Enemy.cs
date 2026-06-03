@@ -1,6 +1,5 @@
 using MyPathfinding;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -12,20 +11,32 @@ public class Enemy : MonoBehaviour
 
     public Dijkstra pathFinder;
 
-    public Node startNode, goalNode;
+    public MyPathfinding.Node goalNode;
+    public MyPathfinding.Node startNode;
 
-    public int point = 0;
+    public List<MyPathfinding.Node> path = new List<MyPathfinding.Node>();
+
+    private int point = 0;
+
+    public GameManager gm;
+
+    private int towerCheck;
 
     void Awake()
     {
+        towerCheck = gm.availableTowers;
+
         pathFinder.GetAllNodes();
 
-        Node[] nodes = FindObjectsByType<Node>(FindObjectsSortMode.InstanceID);
+        MyPathfinding.Node[] nodes = FindObjectsByType<MyPathfinding.Node>(FindObjectsSortMode.InstanceID);
     }
 
     void Start()
     {
-        InvokeRepeating("MoveToNextPoint", 5f, 5f);
+        CalculatePath();
+
+        InvokeRepeating("MoveToNextPoint", 2f, 2f);
+
     }
 
     void Update()
@@ -35,18 +46,50 @@ public class Enemy : MonoBehaviour
             GameManager.game.score++;
             Destroy(gameObject);
         }
+
+        if (gm.availableTowers < towerCheck)
+        {
+            Invoke("CalculatePath", 0.1f);
+            towerCheck = gm.availableTowers;
+
+            print("Path recalculated");
+        }
+
+        if (gm.availableTowers > towerCheck)
+        {
+            Invoke("CalculatePath", 0.1f);
+            towerCheck = gm.availableTowers;
+            print("Path recalculated");
+        }
     }
 
     public void MoveToNextPoint()
     {
-        List<Node> path;
-        path = pathFinder.FindShortestPath(startNode, goalNode);
-
         if (point != path.Count)
         {
             point += 1;
             transform.position = path[point].transform.position;
-            //transform.position = Vector2.MoveTowards(transform.position, path[point].transform.position, speed * Time.deltaTime);
+            startNode = path[point];
         }
     }
+
+    private void CalculatePath()
+    {
+        //ClosestNode();
+
+        path = pathFinder.FindShortestPath(startNode, goalNode);
+    }
+
+    //private void ClosestNode()
+    //{
+        
+
+    //    for (int i = 0; i == .Length; i++)
+    //    {
+    //        if (transform.position == [i].transform.position)
+    //        {
+    //            startNode = [i];
+    //        }
+    //    }
+    //}
 }

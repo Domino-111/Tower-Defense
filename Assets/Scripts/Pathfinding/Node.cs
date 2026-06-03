@@ -8,16 +8,19 @@ namespace MyPathfinding
     {
         public List<Node> Neighbours;
 
+        public float towerWeight;
+
         public float pathWeight;
         public float PathWeight
         {
             get
             {
-                return pathWeight;
+                return pathWeight + towerWeight;
             }
             set
             {
                 pathWeight = value;
+                //print(gameObject.name + " / " + pathWeight);
             }
         }
 
@@ -47,9 +50,6 @@ namespace MyPathfinding
 
         private void OnDrawGizmos()
         {
-            //Gizmos.color = Color.blue;
-            //Gizmos.DrawSphere(transform.position, 0.2f);
-
             Gizmos.color = Color.grey;
             foreach (var node in Neighbours)
             {
@@ -102,7 +102,7 @@ namespace MyPathfinding
         {
             if (collision.CompareTag("Tower"))
             {
-                pathWeight += 10;
+                towerWeight += 20;
             }
         }
 
@@ -111,7 +111,7 @@ namespace MyPathfinding
         {
             if (collision.CompareTag("Tower"))
             {
-                pathWeight -= 10;
+                towerWeight -= 20;
             }
         }
     }
