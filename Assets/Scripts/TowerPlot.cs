@@ -9,19 +9,12 @@ public class TowerPlot : MonoBehaviour
 
     public GameManager gm;
 
+    // Ensures demolish menu isn't seen prematurely and finds the GameManager to reference
     void Awake()
     {
         demolishMenu.SetActive(false);
 
         gm = GameManager.FindFirstObjectByType<GameManager>();
-    }
-
-    void Start()
-    {
-        if (towerPlaced == true)
-        {
-            Invoke("IncreasePathWeight", 0.1f);
-        }
     }
 
     // Bring up demolish option and close menu after inactivity
@@ -55,6 +48,7 @@ public class TowerPlot : MonoBehaviour
         demolishMenu.SetActive(false);
     }
 
+    // Closes the menu after a specified time
     public void MenuTimer()
     {
         demolishMenu.SetActive(false);
