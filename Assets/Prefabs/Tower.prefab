@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4741134338991158507}
   - component: {fileID: 3240778835504833127}
   - component: {fileID: 3111943152323371117}
-  - component: {fileID: 2927532428012447987}
+  - component: {fileID: -6319295483501299939}
   m_Layer: 5
   m_Name: Tower
   m_TagString: Tower
@@ -91,10 +91,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1996bac706a454440990687fbd13b78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tower
-  damage: 1
+  damage: 2
   fireRate: 1
   enemy: {fileID: 0}
-  beam: {fileID: 2927532428012447987}
+  beam: {fileID: -6319295483501299939}
   towerShape: 2
 --- !u!58 &3240778835504833127
 CircleCollider2D:
@@ -159,7 +159,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!120 &2927532428012447987
+--- !u!120 &-6319295483501299939
 LineRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -182,7 +182,7 @@ LineRenderer:
   m_SmallMeshCulling: 1
   m_ForceMeshLod: -1
   m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
@@ -209,16 +209,16 @@ LineRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Positions:
+  - {x: 1, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 0.1
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
+        time: 1
         value: 1
         inSlope: 0
         outSlope: 0
@@ -231,8 +231,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.562325, g: 0, b: 1, a: 1}
+      key1: {r: 0, g: 0.6873989, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -261,7 +261,7 @@ LineRenderer:
       m_NumAlphaKeys: 2
     numCornerVertices: 0
     numCapVertices: 0
-    alignment: 1
+    alignment: 0
     textureMode: 0
     textureScale: {x: 1, y: 1}
     shadowBias: 0.5
