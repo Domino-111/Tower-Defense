@@ -9,13 +9,10 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text scoreText, AT_text, finalScoreText;
 
-    public double score = 0;
+    public int score = 0;
     public int availableTowers;
 
     public GameObject menu, environment, instructions;
-
-    public float time;
-    private double finalScore = 0;
 
     public bool isPlaying = false;
 
@@ -37,14 +34,13 @@ public class GameManager : MonoBehaviour
         {
             UpdateScore();
             AvailableTowers();
-            Timer();
         }
 
         // Can close the game anytime with the escape button
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.Quit();
             print("Game Closed");
+            Application.Quit();
         }
     }
 
@@ -52,6 +48,8 @@ public class GameManager : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene("SampleScene");
+        isPlaying = false;
+        Time.timeScale = 1;
     }
 
     // Shows how many enemies you've killed
@@ -87,18 +85,10 @@ public class GameManager : MonoBehaviour
         instructions.SetActive(false);
     }
 
-    // Times how long the game is played
-    private void Timer()
-    {
-        time = Time.deltaTime;
-        TimeSpan timeSpan = TimeSpan.FromSeconds(time);
-        finalScore = timeSpan.TotalSeconds;
-    }
-
     // Calculates the final score once the game ends
     public void FinalScore()
     {
-        score += (finalScore * 10);
+        score *= 100;
 
         finalScoreText.text = score.ToString();
     }

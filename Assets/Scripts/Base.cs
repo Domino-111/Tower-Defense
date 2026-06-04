@@ -1,5 +1,4 @@
 using UnityEngine;
-using static UnityEditor.MaterialProperty;
 
 public class Base : MonoBehaviour
 {
@@ -14,10 +13,10 @@ public class Base : MonoBehaviour
     }
 
     // Once an enemy touches the base it'll freeze the game and turn on the win screen
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         Time.timeScale = 0f;
-        
+
         endScreen.SetActive(true);
 
         gm.isPlaying = false;

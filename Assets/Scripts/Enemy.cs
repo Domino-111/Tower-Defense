@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float health, speed;
+    public float health, updateRate;
 
     public Tower.Shape myShape;
 
@@ -22,13 +22,27 @@ public class Enemy : MonoBehaviour
 
     private int towerCheck;
 
+    private Vector2 currentPosition;
+
     void Awake()
     {
+        pathFinder = Dijkstra.FindFirstObjectByType<Dijkstra>();
+        gm = GameManager.FindFirstObjectByType<GameManager>();
+
         towerCheck = gm.availableTowers;
 
         pathFinder.GetAllNodes();
 
         MyPathfinding.Node[] nodes = FindObjectsByType<MyPathfinding.Node>(FindObjectsSortMode.InstanceID);
+
+        // Used to find the right node index number
+        //for (int i = 0; i < nodes.Length; i++)
+        //{
+        //    print("Index Position: " + i + " ID " + nodes[i]);
+        //}
+
+        goalNode = nodes[54];
+        startNode = nodes[60];
     }
 
     // Gets the first path
@@ -36,7 +50,8 @@ public class Enemy : MonoBehaviour
     {
         CalculatePath();
 
-        InvokeRepeating("MoveToNextPoint", speed, speed);
+        currentPosition = transform.position;
+        InvokeRepeating("MoveToNextPoint", updateRate, updateRate);
     }
 
     void Update()
@@ -63,8 +78,6 @@ public class Enemy : MonoBehaviour
             towerCheck = gm.availableTowers;
             print("Path recalculated");
         }
-
-        //MoveToNextPoint();
     }
 
     // Determines the next node to move towards and updates what the start node is
@@ -73,9 +86,9 @@ public class Enemy : MonoBehaviour
         if (point != path.Count)
         {
             point += 1;
-            transform.position = Vector2.MoveTowards(transform.position, path[point].transform.position, (speed * Time.fixedDeltaTime)) * 2;
 
-            //transform.position = path[point].transform.position;
+            transform.position = path[point].transform.position;
+
             startNode = path[point];
         }
     }
