@@ -51,11 +51,13 @@ public class Enemy : MonoBehaviour
         CalculatePath();
 
         currentPosition = transform.position;
-        InvokeRepeating("MoveToNextPoint", updateRate, updateRate);
+        //InvokeRepeating("MoveToNextPoint", updateRate, updateRate);
     }
 
     void Update()
     {
+        MoveToNextPoint();
+
         // When health is zero increase the player's score and remove the object
         if (health <= 0)
         {
@@ -83,14 +85,23 @@ public class Enemy : MonoBehaviour
     // Determines the next node to move towards and updates what the start node is
     public void MoveToNextPoint()
     {
-        if (point != path.Count)
+        transform.position = Vector3.MoveTowards(transform.position, path[point].transform.position, Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, path[point].transform.position) < 0.1)
         {
             point += 1;
 
-            transform.position = path[point].transform.position;
-
             startNode = path[point];
         }
+
+        //if (point != path.Count)
+        //{
+        //    point += 1;
+
+        //    transform.position = path[point].transform.position;
+
+        //    startNode = path[point];
+        //}
     }
 
     // Calculates the shortest path the final node determined in game
